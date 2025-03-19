@@ -7,6 +7,8 @@
 # Values for the topo-climatic variables based on the 1971-2000 data
 # Calculated at a 25m resolution
 
+# test git history
+
 env0 <- read.table('Predictors_PLOT.txt', header=TRUE, stringsAsFactors = TRUE, sep = "")
 dim(env0) #550 plots, 5 variables
 
